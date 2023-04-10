@@ -1,0 +1,182 @@
+body {
+  background-color: #0b0c10;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+
+.logo {
+  float: left;
+  width: 150px;
+  height: 47px;
+  background-image: url(../assets/Logo/stream_logo_white.png);
+  background-size: contain;
+}
+.nav-bar-pages ul {
+  list-style: none;
+  float: left;
+}
+
+.nav-bar-pages li {
+  float: left;
+  padding-right: 40px;
+  padding-top: 10px;
+  color: white;
+}
+
+.nav-bar-pages li:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.selected {
+  font-weight: bolder !important;
+}
+
+.search-bar {
+  width: 255px;
+  float: right;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 20px;
+  padding-top: 7px;
+  padding-left: 22px;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  background-color: #202833;
+  margin-top: 100px;
+  padding-left: 30px;
+  padding-right: 5%;
+  padding-top: 30px;
+  padding-bottom: 40%;
+  margin-top: 175px;
+  color: white;
+}
+
+form h3 {
+  color: white;
+}
+
+.imput-elm {
+  width: 100%;
+  height: 35px;
+  border-radius: 25px;
+  padding-left: 15px;
+  margin-top: 25px;
+  background-color: #0b0c10;
+  color: white;
+  border: none;
+}
+
+.btn {
+  width: 225px;
+  height: 35px;
+  border-radius: 25px;
+  padding-left: 15px;
+  margin-top: 25px;
+  background-color: #66fcf1;
+  color: black;
+  border: none;
+  float: right;
+}
+
+.col-box {
+  width: 100%;
+  height: auto;
+  margin-top: 175px;
+  color: white;
+}
+
+.icon-group {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.email-icn {
+  width: 50px;
+  height: 50px;
+  background-image: url(../assets/Icons/email_icon.svg);
+  float: left;
+}
+.phone-icn {
+  width: 50px;
+  height: 50px;
+  background-image: url(../assets/Icons/email_icon.svg);
+  float: left;
+}
+
+.icn-text {
+  width: auto;
+  height: 50px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 30px;
+  font-size: 20px;
+  padding-top: 9px;
+}
+
+footer {
+  width: 100%;
+  height: 170px;
+  background-color: #0b0c10;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 130px;
+}
+
+.footer-text {
+  color: white;
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+.YT-icn {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background-image: url(../assets/social/youtube_icon.svg);
+  background-size: cover;
+  float: right;
+}
+.FB-icn {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background-image: url(../assets/social/facebook_icon.svg);
+  background-size: cover;
+  float: right;
+}
+.TW-icn {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background-image: url(../assets/social/twitter_icon.svg);
+  background-size: cover;
+  float: right;
+}
+.IN-icn {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background-image: url(../assets/social/instagram_icon.svg);
+  background-size: cover;
+  float: right;
+}
